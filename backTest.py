@@ -113,7 +113,7 @@ def try_arb(ts):
     action = "HOLD"
     # entry
     if position is None:
-        if spread > cost + 500:
+        if spread > cost + 500: # 500 is calculated from the intial value = charges
             position = 'CARRY'
             entry = {'ts': ts, 'S': S0, 'F': F0, 'Ft': Ft, 'cost': entry_cost}
             action = 'ENTER_CARRY'
