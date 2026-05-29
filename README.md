@@ -1,5 +1,4 @@
-cash carry bot
-Future price = what people are willing to trade a future-delivery contract for, not necessarily where the stock will actually be in the future.
+
 # Futures Arbitrage Trading Bot
 
 ## Overview
